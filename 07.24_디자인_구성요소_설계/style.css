@@ -1,0 +1,68 @@
+/* 기본 리셋 */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; background-color: #ffffff; }
+
+/* 공통 회색 박스 (이미지/텍스트 블라인드 처리) */
+.box { background-color: #a3a3a3; border-radius: 4px; }
+.bg-gray { background-color: #f4f4f4; }
+
+/* 레이아웃 공통 */
+section { padding: 80px 10%; margin: 0 auto; max-width: 1440px; }
+.section-title { height: 35px; margin: 0 auto 50px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.text-line { height: 16px; margin-bottom: 12px; }
+.title-line { height: 40px; margin-bottom: 20px; }
+
+/* Header */
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px 10%; border-bottom: 1px solid #eaeaea; }
+header .logo { width: 120px; height: 30px; }
+header nav { display: flex; gap: 30px; }
+header .nav-item { width: 60px; height: 15px; }
+header .header-btn { width: 180px; height: 40px; border-radius: 20px; }
+
+/* Section 1: Hero */
+#hero { display: flex; align-items: center; justify-content: space-between; gap: 50px; }
+.hero-left { flex: 1; }
+.hero-right { flex: 1; }
+.hero-right .hero-img { width: 100%; height: 400px; border-radius: 8px; }
+.btn-large { width: 220px; height: 50px; border-radius: 25px; }
+
+/* Section 2: Problem */
+#problem .card { background: #fff; border: 1px solid #e0e0e0; padding: 40px 20px; border-radius: 12px; text-align: center; }
+#problem .img-box { width: 100px; height: 70px; margin: 0 auto 30px; }
+
+/* Section 3: How to Use */
+#how-to-use .flex-align-start { align-items: flex-start; text-align: center; }
+#how-to-use .toggle-ui { width: 180px; height: 40px; border-radius: 20px; margin: 0 auto 30px; }
+#how-to-use .step-img { width: 150px; height: 100px; margin: 0 auto 30px; }
+
+/* Section 4: Products */
+#products .card { border: 1px solid #e0e0e0; padding: 40px 30px; border-radius: 12px; }
+#products .chart-box { width: 100%; height: 150px; background-color: #d0d0d0; }
+
+/* Section 5: Composition */
+#composition .wide-img { width: 100%; height: 400px; border-radius: 8px; }
+
+/* Section 6: Testimonials */
+#testimonials .card { border: 1px solid #e0e0e0; padding: 30px; border-radius: 12px; }
+.review-header { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; }
+.review-header .avatar { width: 40px; height: 40px; border-radius: 50%; }
+.dots-container { display: flex; justify-content: center; gap: 8px; margin-top: 30px; }
+.dots-container .dot { width: 10px; height: 10px; border-radius: 50%; }
+
+/* Section 7: Bottom CTA */
+.cta-layout { display: flex; justify-content: space-between; align-items: center; gap: 50px; }
+.cta-left, .cta-right { flex: 1; }
+.cta-right .input-box { width: 100%; height: 50px; margin-bottom: 15px; border-radius: 8px; background-color: #fff; border: 1px solid #d0d0d0; }
+
+/* Section 8: FAQ */
+#faq .accordion { width: 100%; height: 60px; margin-bottom: 15px; border-radius: 8px; }
+
+/* Footer */
+footer { padding: 60px 10% 40px; }
+.footer-layout { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 40px; }
+footer .logo { width: 120px; height: 30px; }
+.footer-center { flex: 1; margin: 0 50px; }
+.footer-right { display: flex; gap: 10px; }
+.footer-right .square { width: 50px; height: 50px; }
+.footer-bottom { width: 100%; height: 10px; }

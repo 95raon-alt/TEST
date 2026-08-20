@@ -1,0 +1,39 @@
+main {
+    width: 1920px; height: 1040px;
+    padding: 124px 80px;
+    border: 1px solid #000;
+}
+.nav {
+    width: 1760px; height: 33px;
+    padding: 65px 0;
+}
+.Bestsellers {
+    font-size: 28px;
+    font-weight: 700;
+}
+.V-All {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+}
+.img-box {
+    width: 1760px; height: 792px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.i-b-01, .i-b-02, .i-b-03, .i-b-04 {
+    width: 404px; height: 404px;
+    background-color: #EBEBEB;
+}
+.k-m {
+    display: flex;
+    justify-content: space-between;
+}
+.ib01-t-02, .ib02-t-02, .ib03-t-02, .ib04-t-02 {
+    width: 404px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E1DED9;
+}
